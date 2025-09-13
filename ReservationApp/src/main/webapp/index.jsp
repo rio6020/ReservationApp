@@ -42,7 +42,7 @@ value="${param.reservation_time}"/>" required>
 <p class="error-message"><c:out value="${errorMessage}"/></p>
 <p class="success-message"><c:out value="${successMessage}"/></p>
 <div class="button-group">
-<a href="list.jsp" class="button secondary">予約一覧を見る</a>
+<a href="reservation?action=list" class="button secondary">予約一覧を見る</a>
 </div>
 </div>
 </body>
